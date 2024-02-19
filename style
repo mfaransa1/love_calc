@@ -1,0 +1,58 @@
+/* Center align the heading and set styles for links */
+.heading {
+    text-align: center;
+}
+
+.heading a {
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 35px;
+    color: rgb(98, 7, 182);
+    font-family: Arial;
+}
+
+/* Center align the body text */
+body {
+    text-align: center;
+}
+
+/* Style for text input */
+input[type=text] {
+    background-color: rgb(253, 229, 229);
+    width: 65%;
+    font-size: 30px;
+    color: rgb(34, 29, 29);
+    font-weight: bold;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+    height: 45px;
+    padding: 3px;
+    border-radius: 30px;
+    /* Duplicate property removed */
+    text-align: center;
+}
+
+/* Style for button */
+input[type=button] {
+    width: 20%;
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #c7081f 0%, #ec5700 100%);
+    color: white;
+    font-weight: bolder;
+    height: 40px;
+    transition: all 0.3s;
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+}
+
+/* Add hover effect to input buttons */
+input:hover {
+    opacity: 0.5;
+}
+
+/* Style for labels */
+label {
+    font-size: 20px;
+    font-weight: bolder;
+}
